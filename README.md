@@ -1,7 +1,7 @@
 # Starbucks_Project
 This repository contains the code and report for my Capstone Project as part of Udacity’s Data Scientist Nanodegree program. The project is based on the Starbucks Capstone Challenge, where we use simulated customer data from the Starbucks rewards mobile app to predict which offers will be effective for users.
 
-1. Installations:
+##1. Installations:
 The project is developed in Python, utilizing Jupyter Notebook within the Anaconda environment. The key libraries and packages used include:
 
 pandas, numpy for data manipulation and analysis
@@ -13,7 +13,7 @@ mean_squared_error, classification_report
 Ridge regression model from sklearn.linear_model
 matplotlib for data visualization
 time for tracking execution time
-2. Project Overview:
+##2. Project Overview:
 This project addresses two primary questions using Starbucks app data:
 
 What factors contribute to the effectiveness of an offer?
@@ -22,7 +22,7 @@ The data provided includes user demographics, offer details, and transaction his
 
 To answer these questions, I built separate models for each offer type.
 
-Summary of Results:
+##Summary of Results:
 For the first question, I found that the length of time a customer has been a member (tenure) was the most influential factor across all models.
 For the second question, my models achieved the following accuracies:
 BOGO: 82.83%
@@ -30,7 +30,7 @@ Discount: 87.35%
 Informational: 75.3%
 Despite slightly lower performance for Informational offers, a 75% accuracy rate is likely acceptable in a business context, as there’s no direct cost associated with presenting informational offers.
 
-3. Files:
+##3. Files:
 The repository includes four files:
 
 Starbucks Capstone Challenge - Using Starbucks app user data to predict effective offers.ipynb: The main notebook containing the analysis and modeling.
