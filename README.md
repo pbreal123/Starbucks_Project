@@ -22,6 +22,8 @@ The data provided includes user demographics, offer details, and transaction his
 
 To answer these questions, I built separate models for each offer type.
 
+## BlogPost can be found here
+https://medium.com/@pramodbhatreal123/predict-starbucks-offers-2c548a9cb716
 ## Summary of Results:
 For the first question, I found that the length of time a customer has been a member (tenure) was the most influential factor across all models.
 For the second question, my models achieved the following accuracies:
